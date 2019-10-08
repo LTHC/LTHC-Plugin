@@ -1,0 +1,10 @@
+name: PluginTest
+version: 1.0
+author: LTHC
+main: fr.lthc.plugintest.PluginTestMain
+commands:
+  randchest:
+    description: Génère un coffre complètement aléatoire et affiche dans la console ses coordonnées
+    permission: plugintest.lthc.randchest
+  dist:
+    description: permet de dire à un joueur à quelle distance il est du dernier RandChest summon
